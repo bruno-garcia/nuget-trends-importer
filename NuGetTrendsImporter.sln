@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NuGetTrends.Importing", "NuGetTrends.Importing\NuGetTrends.Importing.fsproj", "{60632518-0CAC-48A3-B717-F378B9EE5441}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "NuGetTrends.Importing", "NuGetTrends.Importing\NuGetTrends.Importing.fsproj", "{60632518-0CAC-48A3-B717-F378B9EE5441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,9 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{60632518-0CAC-48A3-B717-F378B9EE5441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +27,11 @@ Global
 		{60632518-0CAC-48A3-B717-F378B9EE5441}.Release|x64.Build.0 = Release|Any CPU
 		{60632518-0CAC-48A3-B717-F378B9EE5441}.Release|x86.ActiveCfg = Release|Any CPU
 		{60632518-0CAC-48A3-B717-F378B9EE5441}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4037B9-45C1-4831-B733-ACF519E5C542}
 	EndGlobalSection
 EndGlobal

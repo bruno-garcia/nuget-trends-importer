@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="PackageRegistration.fs" />
     <Compile Include="NuGetImporter.fs" />
+    <Compile Include="NuGetTrendsContext.fs" />
     <Compile Include="RecurringJobManagerExtensions.fs" />
     <Compile Include="Startup.fs" />
     <Compile Include="Program.fs" />
@@ -19,6 +21,7 @@
     <PackageReference Include="Sentry.AspNetCore" Version="0.0.1-preview5" />
     <PackageReference Include="Hangfire.AspNetCore" Version="1.6.20" />
     <PackageReference Include="Hangfire.MemoryStorage" Version="1.5.2" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.1.1.1" />
   </ItemGroup>
 
 </Project>
